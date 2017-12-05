@@ -19,6 +19,30 @@ header img{
   margin-left: 0.5rem;
   margin-right: 1rem;
 }
+
+#arrival{
+  height: 25rem;
+  background-image: url(../images/moto.jpeg);
+  background-size: cover;
+}
+
+.caption{
+  width: 37.5%;
+  background-color: black;
+}
+
+.caption h1{
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.caption h2{
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+}
+
 h1 {
   display: inline-block;
   font-size: 1rem;
