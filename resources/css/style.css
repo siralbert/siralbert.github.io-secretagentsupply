@@ -20,6 +20,17 @@ header img{
   margin-right: 1rem;
 }
 
+footer{
+  height: 5rem;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+footer span{
+  color: white;
+}
+
 #arrival{
   height: 25rem;
   background-image: url(../images/moto.jpeg);
@@ -38,8 +49,41 @@ header img{
   display: inline-block;
 }
 
-div#menu nav {
+#location, #hours{
+  width: 35%;
 
+}
+
+#location h2, #hours h2{
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  align-content: center;
+}
+
+.item{
+  width: 30%;
+  overflow: hidden;
+
+}
+
+.item img{
+  height: 50%;
+}
+
+.item h3{
+  background-color: black;
+  color: white;
+  padding: 3% 0;
+  text-align: center;
 }
 
 a:-webkit-any-link {
