@@ -27,11 +27,25 @@ header img{
 }
 
 #menu nav{
-
+  background-color: firebrick;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
 #menu nav span{
-  
+  padding: 0.66rem;
+  display: inline-block;
+}
+
+div#menu nav {
+
+}
+
+a:-webkit-any-link {
+  color: white;
+  cursor: auto;
+  text-decoration: none;
 }
 
 .caption{
