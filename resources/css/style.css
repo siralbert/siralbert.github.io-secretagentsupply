@@ -66,30 +66,46 @@ footer span{
   flex-wrap: wrap;
   margin-top: 3rem;
   margin-bottom: 4rem;
-  align-content: center;
+
 }
 
 .item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 30%;
-  overflow: hidden;
+  margin-bottom: 3rem;
+  border: 4px solid black;
+}
 
+.img-container{
+
+  width: 100%;
 }
 
 .item img{
-  height: 50%;
+  height: 9rem;
+  margin: 2rem auto;
+  max-width: 100%;
+  display: block;
 }
 
 .item h3{
   background-color: black;
   color: white;
-  padding: 3% 0;
+  padding: 0.5rem 0;
   text-align: center;
+  width: 100%;
 }
 
 a:-webkit-any-link {
   color: white;
   cursor: auto;
   text-decoration: none;
+}
+
+p{
+  margin-top: 5px;
 }
 
 .caption{
